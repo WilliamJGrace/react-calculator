@@ -14,6 +14,6 @@ describe('Display', () => {
 
     it('should render the value of displayvalue', () => {
       wrapper.setProps({ displayValue: 'test'});
-      expect(wrapper.text().toEqual('test'));
+      expect(wrapper.text()).toEqual('test');
     });
 });
