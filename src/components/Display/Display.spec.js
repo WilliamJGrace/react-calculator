@@ -5,6 +5,13 @@ import { shallow } from 'enzyme'
 
 describe('Display', () => {
     let wrapper
+
+      it('should render correctly', () => {
+        expect(wrapper).toMatchSnapshot()
+        
+      }
+      
+    );
     
     beforeEach(() => wrapper = shallow(<Display displayValue={''} />));
 
