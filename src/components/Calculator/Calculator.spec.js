@@ -2,6 +2,7 @@ import React from 'react'
 import { shallow } from 'enzyme'
 import Calculator from './Calculator'
 import Display from '../Display/Display'
+import Keypad from '../Keypad/Keypad'
 
 describe('Calculator', () => {
     let wrapper
