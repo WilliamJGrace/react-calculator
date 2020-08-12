@@ -16,6 +16,8 @@ describe('keypad', () => {
             />
 
         )
+        // Because we're rendering Keypad directly from it's file, it does not have access to the Calculator methods.
+        // In place of these methods, we use jest.fn(), a Jest function that creates a mock function
     })
 
     it('should render a div', () => {
