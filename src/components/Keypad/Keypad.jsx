@@ -16,3 +16,5 @@ Keypad.propTypes = {
     setOperator: PropTypes.func.isRequired,
     updateDisplay: PropTypes.func.isRequired,
   }
+
+export default Keypad
