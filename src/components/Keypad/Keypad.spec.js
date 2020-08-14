@@ -20,8 +20,8 @@ describe('keypad', () => {
         // In place of these methods, we use jest.fn(), a Jest function that creates a mock function
     })
 
-    it('should render a div', () => {
-        expect(wrapper.find('div').length).toEqual(1)
+    it('should render 2 divs', () => {
+        expect(wrapper.find('div').length).toEqual(2)
         
     });
 
