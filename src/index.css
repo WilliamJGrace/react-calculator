@@ -5,6 +5,8 @@ app variables
 :root { 
    /* background colors */
   --display-background-color: #1d1f1f;
+  --display-background-color: #1d1f1f;
+
   /* font */
   --main-font: 'Orbitron', sans-serif;
   /* font colors */
