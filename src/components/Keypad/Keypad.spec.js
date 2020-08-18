@@ -21,7 +21,7 @@ describe('keypad', () => {
     })
 
     it('should render 2 divs', () => {
-        expect(wrapper.find('div').length).toEqual(2)
+        expect(wrapper.find('div').length).toEqual(3)
         
     });
 
@@ -33,7 +33,7 @@ describe('keypad', () => {
 
     it('redners the values of the operators', () => {
         wrapper.setProps({operators: ['+', '-', '*', '/']})
-        expect(wrapper.find('.operators-container').text().toEqual('+-*/'))
+        expect(wrapper.find('.operators-container').text()).toEqual('+-*/')
 
     });
 });
