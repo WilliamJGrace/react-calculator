@@ -30,4 +30,10 @@ describe('keypad', () => {
         expect(wrapper.find('.numbers-container').text()).toEqual('012')
         
     });
+
+    it('redners the values of the operators', () => {
+        wrapper.setProps({operators: ['+', '-', '*', '/']})
+        expect(wrapper.find('.operators-container').text().toEqual('+-*/'))
+
+    });
 });
