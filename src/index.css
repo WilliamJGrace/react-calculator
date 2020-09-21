@@ -45,6 +45,8 @@ media query for tablet or smaller screen
   :root {
     /* font sizes */
     --display-text-size: 10em;
+    --key-text-size: 6em;
+
 
     /* calculator dimensions */
     --calculator-height: 100%;
