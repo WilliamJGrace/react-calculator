@@ -19,10 +19,11 @@ app variables
   --key-text-color: #d3d3d3;
   /* font sizes */
   --display-text-size: 4em;
+  --key-text-size: 3em;
 
   /* font weights */
   --display-text-weight: 400;
-
+  --key-text-weight: 700;
   /* calculator dimensions */
   --calculator-height: 72%;
   --calculator-width: 36%;
